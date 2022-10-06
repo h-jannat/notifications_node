@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'client')));
 //   }
 const publicKey = 'BK2ETbxj0BqaJFzz2PhC-Kx_2DZXZ_s5V9RmukmqFW0U2Eq2kublMGW8N_b_rtCtVehqLjfuKrJlcOybtkOy9yQ';
 const privateKey = 'po7FCmAmhlyT43Uyp3tJ_52tE1ghVtLTmGg5DvVqBq4';
-webpush.setVapidDetails('mailto:h.jannat@lamah.com', publicKey, privateKey);
+webpush.setVapidDetails('mailto:hend.jnnt@gmail.com', publicKey, privateKey);
 
 
 FgRed = "\x1b[31m";
